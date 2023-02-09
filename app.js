@@ -10,11 +10,16 @@
 // alert(welcomeMessage); 
 
 var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
+
+    
+console.log(txtInput)
+
+function clickHandler(){
+    
+        console.log("clicked!");
+       console.log("input ", txtInput.Value);
+        
+};
 
 btnTranslate.addEventListener("click", clickHandler())
-    
-function clickHandler(){
-    return function clickEventHandler(){
-        console.log("clicked!");
-    }
-}
