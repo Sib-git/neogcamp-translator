@@ -11,7 +11,10 @@
 
 var btnTranslate = document.querySelector("#btn-translate");
 
-btnTranslate.addEventListener("click",function clickEventHandler(){
-    console.log("clicked!")
-});
-
+btnTranslate.addEventListener("click", clickHandler())
+    
+function clickHandler(){
+    return function clickEventHandler(){
+        console.log("clicked!");
+    }
+}
