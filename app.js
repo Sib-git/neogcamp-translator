@@ -17,8 +17,10 @@ var outputDiv= document.querySelector("#output");
 function clickHandler(){
     
         
-outputDiv.innerText="asdfgfdsawerfg "+ textInput.value;
+     outputDiv.innerText="asdfgfdsawerfg "+ textInput.value;
         
 };
 
 btnTranslate.addEventListener("click", clickHandler)
+
+
