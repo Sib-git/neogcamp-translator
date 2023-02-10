@@ -18,7 +18,7 @@ console.log(txtInput)
 function clickHandler(){
     
         console.log("clicked!");
-       console.log("input ", txtInput.Value);
+       console.log("input ", txtInput.value);
         
 };
 
