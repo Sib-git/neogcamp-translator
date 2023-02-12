@@ -1,0 +1,73 @@
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body {
+    color: var(--black);
+    margin: 0;
+    font-family: 'Kalam', cursive;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    display: block;
+}
+
+div {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    max-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    padding: 2rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: start;
+
+
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 1rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+#translate-button {
+    padding: 1rem 2rem;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    background-color: var(--primary);
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
